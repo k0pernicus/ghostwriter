@@ -1,6 +1,6 @@
 # Ghostwriter
 
-Enhanced port of the Ghost "[ghostwriter](https://github.com/roryg/ghostwriter)" theme to the [Hugo](http://gohugo.io) site generator.
+Personal version of the "[ghostwriter](https://github.com/jbub/ghostwriter)" theme, for [Hugo](http://gohugo.io).
 
 ## Installation
 
@@ -8,7 +8,7 @@ Inside the folder of your Hugo site run:
 
     $ mkdir themes
     $ cd themes
-    $ git clone https://github.com/jbub/ghostwriter
+    $ git clone https://github.com/k0pernicus/ghostwriter
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -57,12 +57,7 @@ disqusShortname = "XXX"
     weight = 2
 
 [[menu.main]]
-    name = "Contact"
-    url = "/page/contact/"
-    weight = 3
-
-[[menu.main]]
     name = "About"
     url = "/page/about/"
-    weight = 4
+    weight = 3
 ```

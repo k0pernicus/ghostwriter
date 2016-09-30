@@ -1,17 +1,16 @@
 name = "ghostwriter"
 license = "MIT"
-licenselink = "https://github.com/jbub/ghostwriter/blob/master/LICENSE.md"
-description = "A fork of simple AJAX driven theme for the Ghost blogging platform ported to Hugo."
-homepage = "https://github.com/jbub/ghostwriter"
-tags = ["blog", "technical", "personal"]
-features = ["blog", "technical", "personal"]
+licenselink = "https://github.com/k0pernicus/ghostwriter/blob/master/LICENSE.md"
+description = "A fork of the Ghost blogging platform fork, for Hugo."
+homepage = "https://github.com/k0pernicus/ghostwriter"
+tags = ["website", "blog", "technical", "personal"]
+features = ["website", "blog", "technical", "personal"]
 min_version = 0.15
 
 [author]
-    name = "Juraj Bubniak"
-    homepage = "https://github.com/jbub"
+		name = "Carette Antonin"
+		homepage = "https://github.com/k0pernicus"
 
 [original]
-    author = "roryg"
-    homepage = "http://ghost.jollygoodthemes.com/ghostwriter/"
-    repo = "https://github.com/roryg/ghostwriter"
+    name = "Juraj Bubniak"
+    homepage = "https://github.com/jbub"
