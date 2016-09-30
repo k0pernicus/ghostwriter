@@ -1,10 +1,15 @@
 <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
     <a href="{{ .Permalink }}" itemprop="url" title="Go to post detail">
-        <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-        <h4 class="post-stub-title" itemprop="name">{{ .Title }}</h4>
+				<span class="post-stub-code">Post::new(date:&#38;&#123;</span>
+        <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2,Jan,2006" }}</time>
+				<span class="post-stub-code">&#125;,post:"</span>
+				<span class="post-stub-title" itemprop="name">{{ .Title }}</span>
+				<span class="post-stub-code">".to_string());</span>
 				{{ if .Description }}
 						</br>
+						<span class="post-stub-code">Post::description("</span>
 						<span class="post-stub-description">{{ .Description }}</span>
+						<span class="post-stub-code">".to_string());</span>
 				{{ end }}
         {{ with .Params.featured }}
             <span class="post-stub-tag">Featured</span>
