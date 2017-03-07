@@ -8,8 +8,8 @@ features = ["website", "blog", "technical", "personal"]
 min_version = 0.15
 
 [author]
-		name = "Carette Antonin"
-		homepage = "https://github.com/k0pernicus"
+    name = "Carette Antonin"
+    homepage = "https://github.com/k0pernicus"
 
 [original]
     name = "Juraj Bubniak"
